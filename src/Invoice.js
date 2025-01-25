@@ -27,7 +27,7 @@ const Invoice = () =>{
 
     return(
         <>
-        <h2>Bill/Invoice Generator</h2>
+        <h2>Bill/Invoice Generator </h2>
         <div>
         <lable>Name</lable><br />
         <input type="text" value={name} onChange={(e) => setName(e.target.value)}></input><br />
